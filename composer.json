@@ -1,0 +1,32 @@
+{
+    "name": "oscar-team/experian",
+    "description": "Library to communicate with Experian for credit check",
+    "type": "library",
+    "require": {
+        "php": "^8.1",
+        "ext-soap": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "OscarTeam\\Experian\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Asad",
+            "email": "aur@driveoscar.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "OscarTeam\\Experian\\ExperianServiceProvider"
+            ]
+        }
+    }
+}
