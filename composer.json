@@ -28,5 +28,6 @@
                 "OscarTeam\\Experian\\ExperianServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
