@@ -9,7 +9,7 @@ class ExperianServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/../config/experian.php' => config_path('experian.php')
-        ]);
+        ], 'experian-config');
     }
 
     public function register(): void
